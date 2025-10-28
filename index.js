@@ -55,7 +55,6 @@ const server = http.createServer(async (req, res) => {
     }))
   }
 };
-    // Генерація XML
     const builder = new XMLBuilder({ ignoreAttributes: false, format: true });
     const xmlContent = builder.build(result);
 
